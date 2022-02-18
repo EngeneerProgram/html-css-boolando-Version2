@@ -6,3 +6,31 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 10vh;
+    background-color: #ffccb3;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 2rem;
+}
+
+header > h1:hover{
+    color:rgb(255, 252, 236);
+}
+
+/*Formattazione sezione prodotti*/
+
+.prodotti{
+    width: 1200px;
+    margin:50px auto;
+    text-align: center;
+    background-color: rgb(172, 172, 172);
+}
+
+.foto_prodotto{
+    width: 300px;
+    margin:10px
+}
