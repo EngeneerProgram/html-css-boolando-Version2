@@ -32,5 +32,62 @@ header > h1:hover{
 
 .foto_prodotto{
     width: 300px;
-    margin:10px
+    margin:10px;
+    
+}
+
+.prodotto{
+    position:relative;
+    display:inline-block;
+    margin:1rem;
+   
+}
+
+.rosso{
+    position:absolute;
+    bottom:0;
+    
+    margin:20px;
+    background-color: red;
+}
+
+.verde{
+    position: absolute;
+    bottom:0;
+    right:160px;
+    margin:20px;
+    background-color: green;
+    
+}
+
+.cuore{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right:10px;
+    margin-top: 10px;
+    font-size: 27px;
+    visibility: hidden;
+    color:rgb(226, 117, 117);
+}
+
+.prodotto:hover .cuore{
+    visibility: visible;
+}
+
+.levis{
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 10px;
+}
+
+.descrizione{
+    position:absolute;
+    margin-left: 10px
+}
+
+.costo{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 10px;
 }
