@@ -24,14 +24,16 @@ header > h1:hover{
 /*Formattazione sezione prodotti*/
 
 .prodotti{
-    width: 1200px;
+    width: 1400px;
+    height: auto;
     margin:50px auto;
     text-align: center;
-    background-color: rgb(172, 172, 172);
+    background-color: white;
 }
 
 .foto_prodotto{
     width: 300px;
+    height: 430px;
     margin:10px;
     
 }
@@ -40,6 +42,7 @@ header > h1:hover{
     position:relative;
     display:inline-block;
     margin:1rem;
+    
    
 }
 
@@ -52,6 +55,7 @@ header > h1:hover{
 }
 
 .verde{
+    
     position: absolute;
     bottom:0;
     right:160px;
@@ -90,4 +94,16 @@ header > h1:hover{
     position:absolute;
     margin-top: 20px;
     margin-left: 10px;
+    color:darkgrey;
+    
 }
+.taglia{
+    text-decoration: line-through;
+    color:grey;
+    margin:20px;
+}
+
+span{
+    color:red;
+}
+
