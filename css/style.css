@@ -33,7 +33,7 @@ header > h1:hover{
     background-color: white;
 }
 
-.foto_prodotto{
+.foto_prodotto, .photo_hover{
     width: 300px;
     height: 430px;
     margin:10px;
@@ -44,9 +44,26 @@ header > h1:hover{
     position:relative;
     display:inline-block;
     margin:1rem;
+    }
+
+.photo_hover{
     
-   
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
 }
+
+.prodotto:hover img.photo_hover{
+    opacity:1;
+    transition: 1s ease;
+}
+
+
 
 .rosso{
     position:absolute;
